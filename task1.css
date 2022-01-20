@@ -1,0 +1,183 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   
+ }
+.puzzle{
+font-family: Dancing Script;
+font-size: 2rem;
+z-index: 2;
+
+}
+#pizza{
+position: relative;
+top: 10px;
+width: 35px;
+height: 35px;
+transform: rotate(180deg);
+z-index: -1;
+}
+li{
+width: 120px;
+display: inline-block;
+}
+#puzzle{
+width: 4vw;
+display: inline-block;
+
+}
+nav{
+z-index: -1;
+/* padding: 1rem; */
+
+}
+body{
+color: white;
+background-color: black;
+
+  
+} 
+
+.chatbox:hover{
+width: 8vw;
+height: 20vh; 
+
+}
+
+
+body::before{
+content: "";
+
+background: url("pizza.jpg");
+position: absolute;
+width: 100%;
+height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+    z-index: -2;
+    opacity: 0.4;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+}
+
+li:hover{
+color: red;
+cursor: pointer;
+}
+
+
+.button
+{
+width: 99px;
+height: 45px;
+color: black;
+background-color: yellow;
+border-radius: 15%;
+cursor: pointer;
+box-shadow: 0px 0px 2px 0px rgb(221, 221, 157);
+
+}
+.container{
+font-size: 34px;
+position: absolute;
+top: 277px;
+left: 1100px;
+text-align: center;
+
+}
+h1{
+font-family: Fredoka One;
+}
+#color{
+color: yellow;
+}
+
+h5{
+font-size: 30px;
+color: green;
+}
+h6{
+font-size:15px ;
+}
+#rs{
+color: green;
+}
+.icons{
+width: 550px;
+display: inline-block;
+margin: 0%;
+top: 0%;
+top: 344px;
+
+}
+
+.chatbox{
+width: 10px;
+height: 20px;
+background-color: rgb(99, 238, 99);
+position: fixed;
+left: 0%;
+font-size: 24px;
+color: wheat;
+background-color: black;
+
+}
+
+
+.button:hover{
+color:rgb(255, 255, 255);
+background-color: rgb(3, 42, 102);
+}
+@media  (max-width:1140px) {
+.icons{
+width: -9vw;
+display: inline-block;
+
+margin: 0%;
+top: 0%;
+justify-content: right;
+text-align: right;
+justify-content: right;
+background-attachment: fixed;
+
+
+}
+@media (max-width:1763px) {
+.container{
+font-size: 12px;
+position: absolute;
+top: 277px;
+left: 100px;
+text-align: center;
+}
+.button
+{
+width: 59px;
+height: 25px;
+font-size: 8px;
+
+}
+
+
+}
+
+}
+@media  (max-width:500px) {
+
+body::before{
+position: absolute;
+width: 150%;
+height: 120%;
+
+}
+
+}
+@media (max-width:1763px){
+html{
+font-size: 10px;
+}
+}
